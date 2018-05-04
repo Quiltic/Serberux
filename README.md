@@ -1,2 +1,0 @@
-# Serberux
-Personal Game
