@@ -11,10 +11,10 @@ class BackgroundGame(object):
         self.EnemySide = pygame.sprite.Group()
          
         # Background image
-        self.background = pygame.image.load(DIR+"\\Serberux Background.png").convert_alpha()
+        self.background = pygame.image.load(DIR+"\\Images\\Serberux Background.png").convert_alpha()
     def update(self,screen):
         self.Bars.draw(screen)
-        screen.blit(self.background)
+        screen.draw(self.background)
         
 class Bar(pygame.sprite.Sprite):
      
@@ -29,9 +29,9 @@ class Bar(pygame.sprite.Sprite):
         self.Max = maxpoints
         self.rect.x = 0
         
-        self.update(False)
-        
     def update(self,num):
+        xm = (self.Max*num)*self.Max
+        self.rect.x = 0 - xm
         pass
 ##        info = self.info
 ##        if self.info['clicked'] != clicked:
