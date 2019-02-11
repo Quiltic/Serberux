@@ -1,0 +1,35 @@
+Setting is similar to Skyrim but with guns and dwarves.
+
+Gladerock - Similar to cocain: comes from crushed earth elementals.
+
+
+
+THEWELL
+Along the edge of the woods is a small clearing.
+In the clearing you can see an ornate Well.
+(Examine)(Ignore)
+
+Apon closer Inspection you see that the bucket is full.
+However noone is around.
+(Drink)(Dump)(Leave)
+
+Coinflip Drink:
+1: After a quick sip you find yourself reguvinated.(HEAL)
+2: It tastes sour and asidic. (DMG)
+
+Coinflip Dump
+1: You hear no splash come from the well.
+   Looking down you see a small box at the bottom.
+   (Climb in for it[dodge])(Leave)
+	Apon fail take Dmg
+	Small Chest RC,RC,RR
+2: 
+
+
+
+
+As the door creaps open you can hear people argue.
+Voice 1: I don't know if he will keep his mouth shut.
+Voice 2: He knows what will happen if he doesen't.
+(Keep Listening)(Sneak past[Dodge+20]){Attack}
+
