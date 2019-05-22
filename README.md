@@ -6,6 +6,7 @@ The game includes save states, where it will save after every area.
 
 To run the game make sure to have all the requred files/requirements (Listed Below)- and run the file called Images.
 Required:
-  pickle
   pygame
-  threading
+  threading?
+  
+Most updated version is in the ziped folders
